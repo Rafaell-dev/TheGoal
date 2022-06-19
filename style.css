@@ -1,0 +1,125 @@
+h1 {
+  font-family: 'Acme', sans-serif;
+  font-weight: 700;
+  color: #ededed;
+  margin: 0rem;
+  padding: 0rem;
+}
+
+h2,
+p,
+span {
+  font-family: 'Acme', sans-serif;
+  font-weight: 500;
+}
+
+h2 {
+  display: flex;
+  color: #870357;
+  justify-content: center;
+}
+h3 {
+  color: #ededed;
+}
+
+.countdown-element p,
+span {
+  color: #f9a443;
+}
+
+.countdown-element p {
+  font-weight: bolder;
+}
+
+.card {
+  text-align: center;
+  font-weight: 500;
+}
+.card-header {
+  background: #870357;
+  color: #ededed;
+  font-weight: bold;
+}
+.nameCountry {
+  color: #000;
+}
+
+.card-custom{
+  width: 250px;
+  height: 225px;
+  border-radius: 10px 20px;
+  box-sizing: border-box;
+  cursor: pointer;
+  margin: 10px 15px;
+  background-position: center;
+  background-size: cover;
+  transition: transform 0.5s;
+}
+
+.card-custom:hover{
+  transform: translateY(-10px);
+  text-shadow: 0 0 10px;
+}
+
+
+.card-custom-1{
+  background-image: url(images/stadiums/alBayt.jpg);
+}
+.card-custom-2{
+  background-image: url(images/stadiums/alThumama.jpg);
+}
+.card-custom-3{
+  background-image: url(images/stadiums/ahmadBinAli.jpg);
+}
+.card-custom-4{
+  background-image: url(images/stadiums/974.jpg);
+}
+.card-custom-5{
+  background-image: url(images/stadiums/alJanoub.jpg);
+}
+.card-custom-6{
+  background-image: url(images/stadiums/educationCity.jpg);
+}
+.card-custom-7{
+  background-image: url(images/stadiums/khalifa.png);
+}
+.card-custom-8{
+  background-image: url(images/stadiums/luisail.jpg);
+}
+
+
+@media (max-width: 320px) {
+  .countdown-element {
+    font-size: 2rem;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+  /* .nameCountry{
+    visibility: hidden;
+  } */
+}
+@media (min-width: 425px) and (max-width: 724px) {
+  .countdown-element {
+    font-size: 4rem;
+  }
+  h2 {
+    font-size: 3rem;
+  }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  .countdown-element {
+    font-size: 3rem;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+}
+@media (min-width: 1440px) {
+  .countdown-element {
+    font-size: 3rem;
+  }
+  h2 {
+    font-size: 4rem;
+  }
+}
