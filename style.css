@@ -88,6 +88,9 @@ span {
   background-image: url(images/stadiums/luisail.jpg);
 }
 
+.card-custom-9{
+  background-image: url(images/mascot.png);
+}
 
 @media (max-width: 320px) {
   .countdown-element {
@@ -123,4 +126,17 @@ span {
   h2 {
     font-size: 4rem;
   }
+}
+
+footer {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+footer a{
+  text-decoration: none;
+  color: #870357;
+}
+footer a:hover{
+  color: #d687b9;
 }
